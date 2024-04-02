@@ -25,4 +25,4 @@ client.on("message", msg => {
   }
 })
 
-client.login(secrets.DSID)
+client.login(${{ secrets.DSID }})
