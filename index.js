@@ -25,4 +25,4 @@ client.on("message", msg => {
   }
 })
 
-client.login(process.env['tk'])
+client.login(secrets.DSID)
